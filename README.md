@@ -10,16 +10,16 @@ Disponemos de datos el consumo energético de los edificios públicos gestionado
 "2020";"3";"2096";"Centros culturales y bibliotecas";"Biblioteca Eugenio Trías";"JERÓNIMOS";"Gas";"Gas";"m3";"1266,7"
 ```
 La información de cada línea se corresponde con lo siguiente:
-•	año:  año en el que se hace la medición de consumo, de tipo int.
-•	mes: mes en el que se produce la fecha de consumo, de tipo int.
-•	id: identificador único del edificio para el que se da el consumo, de tipo str.
-•	tipo_edificio: tipo de edificio, de tipo str.
-•	edificio: nombre del edificio para el que se hace la medición, de tipo str.
-•	barrio: barrio en el que está el edificio, de tipo str.
-•	clase: clase de energía para la que se hace la medición, de tipo str.
-•	grupo: grupo al que pertenece la enercía para la que se realiza la medición, de tipo str.
-•	unidad: unidad de medida de la medición del consumo, de tipo str.
-•	consumo: cantidad consumida, de tipo float. 
+*	año:  año en el que se hace la medición de consumo, de tipo int.
+*	mes: mes en el que se produce la fecha de consumo, de tipo int.
+*	id: identificador único del edificio para el que se da el consumo, de tipo str.
+*	tipo_edificio: tipo de edificio, de tipo str.
+*	edificio: nombre del edificio para el que se hace la medición, de tipo str.
+*	barrio: barrio en el que está el edificio, de tipo str.
+*	clase: clase de energía para la que se hace la medición, de tipo str.
+*	grupo: grupo al que pertenece la enercía para la que se realiza la medición, de tipo str.
+*	unidad: unidad de medida de la medición del consumo, de tipo str.
+*	consumo: cantidad consumida, de tipo float. 
 
 Se han implementado en Java una serie de tipos (clases, enumerados y `records`) para explotar estos datos. 
 
@@ -37,25 +37,25 @@ Cree una clase `TestConsumo` y en su método `main`:
 
 	* Fecha del consumo: 1/12/2023
 	* Identificador: 20
-	• Tipo de edificio: Centros culturales y bibliotecas.
-	• Edificio: Biblioteca Pío Baroja.
-	• Barrio: ACACIAS
-	• Clase de energía: Gas.
-	• Grupo: Gas.
-	• Unidad: m3
-	• Consumo: 807,6
+	* Tipo de edificio: Centros culturales y bibliotecas.
+	* Edificio: Biblioteca Pío Baroja.
+	* Barrio: ACACIAS
+	* Clase de energía: Gas.
+	* Grupo: Gas.
+	* Unidad: m3
+	* Consumo: 807,6
 
 2) Cree un objeto de tipo `Consumo` con las siguientes propiedades
 
 	* Fecha del consumo: 1/11/2023
 	* Identificador: 20
-	• Tipo de edificio: Centros culturales y bibliotecas.
-	• Edificio: Biblioteca Pío Baroja.
-	• Barrio: ACACIAS
-	• Clase de energía: Gas.
-	• Grupo: Gas.
-	• Unidad: m3
-	• Consumo: 800,6
+	* Tipo de edificio: Centros culturales y bibliotecas.
+	* Edificio: Biblioteca Pío Baroja.
+	* Barrio: ACACIAS
+	* Clase de energía: Gas.
+	* Grupo: Gas.
+	* Unidad: m3
+	* Consumo: 800,6
 
 
 3) Dados esos dos objetos, muestre el mes en el que ha habido un mayor consumo.
